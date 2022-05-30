@@ -1,7 +1,7 @@
 module.exports = {
-  name: 'Dandelion Pro',
-  desc: 'Dandelion Pro - React Website Template',
+  name: 'Macsi Centre',
+  desc: 'Macsi Centre - Dashboard',
   prefix: 'dandelion',
-  footerText: 'Dandelion Pro All Rights Reserved 2018',
-  logoText: 'Dandelion Pro',
+  footerText: 'Macsi Centre All Rights Reserved 2018',
+  logoText: 'Macsi Centre',
 };

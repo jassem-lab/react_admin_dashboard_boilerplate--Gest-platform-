@@ -1,13 +1,13 @@
 {
-  "name": "dandelion_starter",
+  "name": "macsi_centre",
   "version": "2.1.0",
-  "description": "React website tempate with focus on perfomance and design",
+  "description": "Admin Dashboard",
   "private": true,
   "engines": {
     "npm": ">=6.9.0",
     "node": ">=12.0.0"
   },
-  "author": "Dandelion Pro Team",
+  "author": "Macsi Centre",
   "license": "Envato Regular License",
   "scripts": {
     "analyze:clean": "rimraf stats.json",

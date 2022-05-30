@@ -67,38 +67,23 @@ function LoginForm(props) {
       <Paper className={classNames(classes.paperWrap, deco && classes.petal)}>
         <Hidden smDown>
           <div className={classes.topBar}>
-            <NavLink to="/" className={classes.brand}>
+            {/* <NavLink to="/" className={classes.brand}>
               <img src={logo} alt={brand.name} />
               {brand.name}
-            </NavLink>
-            <Button size="small" className={classes.buttonLink} component={LinkBtn} to="/register">
+            </NavLink> */}
+            {/* <Button size="small" className={classes.buttonLink} component={LinkBtn} to="/register">
               <Icon className={classes.icon}>arrow_forward</Icon>
               Create new account
-            </Button>
+            </Button> */}
           </div>
         </Hidden>
         <Typography variant="h4" className={classes.title} gutterBottom>
           Sign In
         </Typography>
-        <Typography variant="caption" className={classes.subtitle} gutterBottom align="center">
-          Lorem ipsum dolor sit amet
-        </Typography>
+        <Typography variant="caption" className={classes.subtitle} gutterBottom align="center" />
         <section className={classes.socmedLogin}>
-          <div className={classes.btnArea}>
-            <Button variant="outlined" size="small" className={classes.redBtn} type="button">
-              <AllInclusive className={classNames(classes.leftIcon, classes.iconSmall)} />
-              Socmed 1
-            </Button>
-            <Button variant="outlined" size="small" className={classes.blueBtn} type="button">
-              <Brightness5 className={classNames(classes.leftIcon, classes.iconSmall)} />
-              Socmed 2
-            </Button>
-            <Button variant="outlined" size="small" className={classes.cyanBtn} type="button">
-              <People className={classNames(classes.leftIcon, classes.iconSmall)} />
-              Socmed 3
-            </Button>
-          </div>
-          <ContentDivider content="Or sign in with email" />
+
+          <ContentDivider content="Sign in with email" />
         </section>
         <section className={classes.formWrap}>
           <form onSubmit={handleSubmit}>

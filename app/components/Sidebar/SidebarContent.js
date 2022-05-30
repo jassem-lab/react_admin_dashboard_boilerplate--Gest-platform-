@@ -62,8 +62,7 @@ function SidebarContent(props) {
     <div className={classNames(classes.drawerInner, !drawerPaper ? classes.drawerPaperClose : '')}>
       <div className={classes.drawerHeader}>
         <NavLink to="/app" className={classNames(classes.brand, classes.brandBar, turnDarker && classes.darker)}>
-          <img src={logo} alt={brand.name} />
-          {brand.name}
+         Macsi Centre
         </NavLink>
         {isLogin && (
           <div
